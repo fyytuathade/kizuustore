@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Starlight Member",
+    "price": "Rp 150.000",
+    "image": "assets/rawkun.png",
+    "logo": "assets/hover.png",
+    "link": "rawkun.html"
+  },
+  {
+    "name": "Paket Diamond ML 503 + 65",
+    "price": "Rp 568.000",
+    "image": "assets/explore.png",
+    "logo": "assets/hover.png",
+    "link": "explore.html"
+  },
+  {
+    "name": "Skin Event Naruto",
+    "price": "Rp 6.030.000",
+    "image": "assets/event.png",
+    "logo": "assets/hover.png",
+    "link": "produk1.html"
+  },
+  {
+    "name": "Starlight Member",
+    "price": "Rp 150.000",
+    "image": "assets/material.png",
+    "logo": "assets/hover.png",
+    "link": "produk1.html"
+  }
+]
