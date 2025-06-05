@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore</title>
+  <link rel="stylesheet" href="product.css" />
+</head>
+
+<body>
+  <header>
+    <img src="assets/kizuulogo.png" alt="Logo Empe" class="logo" />
+    <nav>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </nav>
+
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="rawkun.html">Rawkun</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Material</a></li>
+      </ul>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+  </header>
+  <div class="container">
+
+
+    <main>
+
+      <table class="layout">
+        <tr>
+          <!-- Informasi Produk -->
+          <td style="width: 50%; height:100% ;">
+            <div class="box-info">
+              <img src="assets/explore.png" alt="" style="width: 120px;">
+              <h2>Jasa Eksplorasi</h2>
+              <p>Layanan eksplorasi kami mencakup buka semua portal, culus hunting, dan explore map 100% di setiap
+                region — mulai dari Mondstadt sampai Fontaine.
+                Semua dikerjakan manual tanpa cheat, aman buat akun kamu. Cocok buat yang pengen dapet Primogem banyak
+                tapi gak sempet main!</p>
+            </div>
+          </td>
+
+          <!-- Informasi Pelanggan -->
+          <td style="width: 50%;">
+            <div class="box">
+              <h2>Informasi Pelanggan</h2>
+              <label>UID</label>
+              <input type="text" placeholder="Masukkan User ID">
+              <label>Pesanan</label>
+              <input type="text" placeholder="Masukkan Server ID">
+              <label>Nomor WhatsApp</label>
+              <input type="text" placeholder="Masukkan nomor WhatsApp">
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <!-- Daftar Harga (hanya di sisi kanan) -->
+          <td colspan="2">
+            <div class="box">
+              <h2>Daftar Harga Explore</h2>
+              <table class="pricelist">
+                <thead style="background-color: #6D574A;">
+                  <tr style="background-color: #6D574A;">
+                    <th style="background-color: #6D574A;">Patch/Map</th>
+                    <th style="background-color: #6D574A;">Harga</th>
+                    <th style="background-color: #6D574A;">Keterangan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Mondstat -->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Mondstat</td>
+                  </tr>
+                  <tr>
+                    <td>Starfell Valley</td>
+                    <td>Rp 25.000</td>
+                    <td rowspan="5">
+                      Harus Sudah Menyelesaikan Quest:<br>
+                      Di Tengah Pegunungan(Dragonspine)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Windcry Hill</td>
+                    <td>Rp 20.000</td>
+                  </tr>
+                  <tr>
+                    <td>Windwail Highland</td>
+                    <td>Rp 20.000</td>
+                  </tr>
+                  <tr>
+                    <td>Brightcrown Mountains</td>
+                    <td>Rp 20.000</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Spesial Map: Dragonspine</strong></td>
+                    <td><strong>Rp 45.000</strong></td>
+                  </tr>
+
+                  <!-- Placeholder untuk Liyue -->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Liyue</td>
+                  </tr>
+                  <tr>
+                    <td>Minlin</td>
+                    <td>Rp 50.000</td>
+                    <td rowspan="7">
+                      Harus Menyelesaikan Quest:<br>
+                      - Quest Di Kedalaman Reuni Yang(Chasm)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Lisha</td>
+                    <td>Rp 30.000</td>
+                  </tr>
+                  <tr>
+                    <td>Bishui Plains</td>
+                    <td>Rp 40.000</td>
+                  </tr>
+                  <tr>
+                    <td>Sea Of Clouds</td>
+                    <td>Rp 30.000</td>
+                  </tr>
+                  <tr>
+                    <td>Qiongji Estuary</td>
+                    <td>Rp 40.000</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Spesial Map: Chasm</strong></td>
+                    <td><strong>Rp 20.000</strong></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Chasm Underground</strong></td>
+                    <td><strong>Rp 50.000</strong></td>
+                  </tr>
+
+                  <!-- Placeholder untuk Chenyu-->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Chenyu Vale</td>
+                  </tr>
+                  <tr>
+                    <td>Upper Vale</td>
+                    <td>Rp 40.000</td>
+                    <td rowspan="3">
+                      Harus Menyelesaikan Quest:<br>
+                      - Berkah Chenyu Dari Giok Karam<br>- Sepanjang Wangshan Kenangan<br>- Buku Rahasia Pedang
+                      Guhua<br>- Lembah Misteri Pendekar Rahasia</td>
+                  </tr>
+                  <tr>
+                    <td>Southern Mountain</strong></td>
+                    <td>Rp 40.000</strong></td>
+                  </tr>
+                  <tr>
+                    <td>MT. LAIXIN</strong></td>
+                    <td>Rp 10.000</strong></td>
+                  </tr>
+
+                  <!-- Inazuma -->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Inazuma</td>
+                  </tr>
+                  <tr>
+                    <td>Narukami Island</td>
+                    <td>Rp35.000</td>
+                    <td rowspan="6">
+                      Harus Menyelesaikan Quest:<br>
+                      - Pemurnihan Secred Sakura<br>- Kisah Tartara Yang Pertama<br>- Dasar Pemandian Pedang<br>-
+                      Warisan
+                      Orobashi<br>- Perjalanan Melalui Kabut Sampai Tsurumi Terang</td>
+                  </tr>
+
+                  <tr>
+                    <td>Seirai Island</strong></td>
+                    <td>Rp 35.000</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Kannazuka</strong></td>
+                    <td>Rp 30.000</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Tsurumi Island</strong></td>
+                    <td>Rp 40.000</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Yashiori Island</strong></td>
+                    <td>Rp 30.000</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Watatsumi Island</strong></td>
+                    <td>Rp 40.000</strong></td>
+                  </tr>
+
+                  <!-- Placeholder untuk Sumeru -->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Sumeru</td>
+                  </tr>
+                  <tr>
+                    <td>Sumeru Hutan</td>
+                    <td>Rp 195.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Aranyaka</td>
+                  </tr>
+                  <tr>
+                    <td>Sumeru Gurun 3.1</td>
+                    <td>Rp 130.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Mimpi Emas<br>- Mimpi Ganda</td>
+                  </tr>
+                  <tr>
+                    <td>Sumeru Gurun 3.4</td>
+                    <td>Rp 110.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Lagu Berkabung Bilqis<br>- Tadhla The Falcon<br>- Bukti Ganda
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Sumeru Gurun 3.6</td>
+                    <td>Rp 90.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Khvarena Baik & Buruk</td>
+                  </tr>
+
+                  <!-- Placeholder untuk Fontaine -->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Fontaine</td>
+                  </tr>
+                  <tr>
+                    <td>Fontaine 4.0</td>
+                    <td>Rp 100.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Petualangan Narzissenkreuz<br>- Jejak Pasang Laut<br>- Dunia
+                      Warna Warna Kuno<br>- Kerajaan Dalam Cermin(Kisah Ann)<br>- Jika Dia Sudah Tak Lagi Memimpikanmu
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fontaine 4.1</td>
+                    <td>Rp 90.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Bintang Yang Bersinar Dikedalaman<br>- Kisah Institut Penelitian
+                      Fontaine<br>- Komedi Yang Belum Selesai<br></td>
+                  </tr>
+                  <tr>
+                    <td>Fontaine 4.2</td>
+                    <td>Rp 85.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Peri Dari Erynnyes<br>- Pencarian Di Lautan Alga<br>-
+                      Kebangkitan Sang Penyelamat<br>- Bangkit Dari Mimpi Abadi<br>- Kebangkitan Yang Belum Selesai
+                      (Fontaine 4.1)<br>-Semua Persyaratan Quest Fontaine 4.0</td>
+                  </tr>
+                  <tr>
+                    <td>Fontaine 4.6</td>
+                    <td>Rp 45.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Mimpi Buruk Petrichor<br>- Istana Raja Laut<br>- Tahanan Dalam
+                      Belenggu<br>- Melodi Parsalia<br>- Requiem</td>
+                  </tr>
+
+                  <!-- Placeholder untuk Natlan -->
+                  <tr style="background:#4B3832; font-weight:bold;">
+                    <td colspan="3">Natlan</td>
+                  </tr>
+                  <tr>
+                    <td>Natlan 5.0</td>
+                    <td>Rp 120.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Antara Janji & Lupa<br>- Bayangan Gunung<br>- Kisah Mengambil
+                      Mimpi Ditengah Api</td>
+                  </tr>
+                  <tr>
+                    <td>Natlan 5.2</td>
+                    <td>Rp 90.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Kota Yang Terkubur Oleh Abu<br>- Mimpi Akan Langi Yang Jauh<br>-
+                      Tonatiuh Bergetar<br>- Janji Yang Ia Pilih</td>
+                  </tr>
+                  <tr>
+                    <td>Natlan 5.5</td>
+                    <td>Rp 70.000</td>
+                    <td>Harus Menyelesaikan Quest:<br>- Jalan Menuju Gunung<br>- Jalan Menuju Puncak Berkobar<br>-
+                      Penyair Kota Yang Hancur<br>- Akhir Dari Kembalinya Bara Api</td>
+                  </tr>
+        </tr>
+        </tbody>
+      </table>
+      <p class="note">*Catatan: Bisa Request Eceran,Langsung Order Di WhatsApp.</p>
+  </div>
+  </td>
+  </tr>
+
+  <tr>
+    <!-- Kontak WhatsApp (masih di kolom kanan) -->
+    <td colspan="2">
+      <div class="box">
+        <h2>Hubungi Kami via WhatsApp</h2>
+        <p>Jika Anda Ingin Melakukan Order Silahkan Hubungi Whatsapp Dibawah Ini!</p>
+        <a href="https://wa.me/6285162660106" target="_blank" class="whatsapp-button">
+          <button type="button">Hubungi via WhatsApp</button>
+        </a>
+      </div>
+    </td>
+  </tr>
+  </table>
+  </main>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 KizuuStore. Semua Hak Cipta Dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
